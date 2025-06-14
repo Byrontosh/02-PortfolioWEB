@@ -1,0 +1,36 @@
+
+.principal{
+    /* border: 1px solid blue; */
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.principal__title{
+    font-size: 2rem;
+	font-weight: 600;
+    margin-bottom: 0;
+}
+
+.principal__description{
+    font-size: 1.1rem;
+}
+
+
+@media(width>=768px){
+    .principal{
+        padding: 2rem 0;
+    }
+    .principal__description{
+        font-size: 1.3rem;
+    }
+    .principal__title{
+        font-size: 3rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding: 1rem 0;
+    }
+}

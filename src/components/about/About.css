@@ -1,0 +1,49 @@
+.about__content{
+    padding: 1rem;
+    /* border: 1px solid red; */
+}
+
+.about__title{
+    font-size: 2rem;
+    margin: 0;
+    color: var(--secondary);
+}
+.about__paragraph{
+    text-align: center;
+    font-weight: 400;
+}
+
+.about__figure{
+    display: none;
+}
+
+@media(width>=768px){
+    .about__figure{
+        display: block;
+        margin: 0;
+        /* border: 1px solid blue; */
+    }
+    .about{
+        /* border: 1px solid orange; */
+        max-width: 1400px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        text-align: center;
+    }
+    .about__content,
+    .about__figure{
+        width: 50%;
+    }
+    .about__picture{
+        width: 100%;
+    }
+    .about__title{
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-size: 2.5rem;
+    }
+
+}

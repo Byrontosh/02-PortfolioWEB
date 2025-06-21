@@ -1,6 +1,6 @@
 
 .principal{
-    /* border: 1px solid blue; */
+    /* border: 1px solid purple; */
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -10,12 +10,14 @@
 
 
 .principal__title{
+    /* border: 1px solid blue; */
     font-size: 2rem;
 	font-weight: 600;
     margin-bottom: 0;
 }
 
 .principal__description{
+    /* border: 1px solid pink; */
     font-size: 1.1rem;
 }
 

@@ -11,7 +11,7 @@ header{
 }
 
 .navbar__container {
-    /* border: 1px solid red; */
+    /* border: 1px solid blue; */
     width: 90%;
     margin: 0 auto;
     text-align: center;
@@ -19,6 +19,7 @@ header{
 
 
 .navbar__logo {
+    /* border: 1px solid yellow; */
     margin: 0;
     font-size: 1.8rem;
     text-transform: uppercase;
@@ -26,12 +27,14 @@ header{
 }
 
 .navbar__menu{
+    /* border: 1px solid orange; */
     padding: 0;
     margin: 0;
 }
 
 
 .navbar__menu a {
+    /* border: 1px solid red; */
     color: var(--primary);
     font-size: 1.2rem;
     font-weight: 600;
@@ -55,5 +58,7 @@ header{
     .navbar__menu{
         display: flex;
         gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
